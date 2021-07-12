@@ -21,9 +21,8 @@ For headless execution:
 npx cypress run ./cypress/integration/aritable/signup.spec.js
 ```
 To open test in browser
-npx cypress open ./cypress/integration/airtableSignup/sample_spec.js
 ```bash
-npx cypress run ./cypress/integration/aritable/signup.spec.js
+npx cypress open ./cypress/integration/airtableSignup/sample_spec.js
 ```
 
 ```bash
@@ -47,6 +46,7 @@ npx cypress run ./cypress/integration/aritable/signup.spec.js
 └── package.json
 ```
 ## Test requirements
+```bash
 Prerequisites:
 Go through the signup flow from airtable.com and observe each step of the onboarding flow
 If you are unfamiliar Cypress, watch quick tutorials to see if there is a preference for one over the other
@@ -64,4 +64,5 @@ Verify that the collaborator has “Editor” role displayed under “Base Colla
 
 Suggestions:
 You can submit this as a single test case and verify it can run through fully and succeed
-Include a README.md file on setting up and running the tes
+Include a README.md file on setting up and running the test
+```
