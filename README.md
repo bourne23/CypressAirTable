@@ -10,7 +10,7 @@ npm install
 3. You have Chrome browser installed
 
 ## Running the project
-Run tests by using terminal or an NPM scripts 
+Run tests by using terminal or by utilizing NPM scripts 
 For headless execution:
 ```bash
 npx cypress run ./cypress/integration/aritable/signup.spec.js
