@@ -2,22 +2,17 @@
  This repo contains an example project with the a test written in Cypress.
 
 ## Prerequisites
-1. You have Node JS installed and NPM set up, and version no later than npm@5.2.0
-```bash
-npm install 
-```
-2. You have Visual Studio Code editor 
+1. You have Visual Studio Code editor installed.
+2. You have the latest Node JS installed and NPM set up
 3. You have Chrome browser installed
 
 ## Running the project
-Run tests by using terminal or by utilizing NPM scripts 
-For headless execution:
-```bash
-npx cypress run ./cypress/integration/aritable/signup.spec.js
-```
-To open test in browser:
-```bash
-npx cypress open ./cypress/integration/airtableSignup/sample_spec.js
+Open/clone the repo
+Navigate into the project folder.
+Run ``npm i`` to download the project's dependencies listed in the package.json.
+Run tests by running a command in terminal or by running NPM scripts 
+For headless execution: ``npx cypress run ./cypress/integration/aritable/signup.spec.js``
+To open test in browser:  ``npx cypress open ./cypress/integration/airtableSignup/sample_spec.js``
 ```
 
 ```bash
