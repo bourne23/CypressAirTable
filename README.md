@@ -13,7 +13,6 @@ Run ``npm i`` to download the project's dependencies listed in the package.json.
 Run tests by running a command in terminal or by running NPM scripts 
 For headless execution: ``npx cypress run ./cypress/integration/aritable/signup.spec.js``
 To open test in browser:  ``npx cypress open ./cypress/integration/airtableSignup/sample_spec.js``
-```
 
 ```bash
 ├── README.md
