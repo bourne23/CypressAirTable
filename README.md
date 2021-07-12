@@ -1,18 +1,13 @@
 ## CypressWorkshop - Airtable
- A project to demonstrate/test a use case, i.e. signup and onboarding flow using Cypress 
+ This repo contains an example project with the a test written in Cypress.
 
 ## Prerequisites
-1. Install Node JS and Setup NPM
+1. You have Node JS installed and NPM set up, and version no later than npm@5.2.0
 ```bash
 npm install 
 ```
-2. Install Visual Studio Code Editor or another IDE
-
-3. If you have npm version older than npm@5.2.0, install npx to run ``cypress open``
-```
-npm install -g npx
-```
-4. Install Chrome browser 
+2. You have Visual Studio Code editor 
+3. You have Chrome browser installed
 
 ## Running the project
 Run tests by using terminal or an NPM scripts 
@@ -20,7 +15,7 @@ For headless execution:
 ```bash
 npx cypress run ./cypress/integration/aritable/signup.spec.js
 ```
-To open test in browser
+To open test in browser:
 ```bash
 npx cypress open ./cypress/integration/airtableSignup/sample_spec.js
 ```
